@@ -1,27 +1,13 @@
-{
+﻿{
   "name": "automessageai",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "AutoMessage AI",
+  "main": "src/backend/server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "axios": "^1.7.9",
-    "express": "^4.21.2",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "vercel": "^41.0.2"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.26.8",
-    "@babel/preset-env": "^7.26.8",
-    "@babel/preset-react": "^7.26.3",
-    "babel-loader": "^9.2.1",
-    "webpack": "^5.97.1",
-    "webpack-cli": "^6.0.1"
-  }
+  "dependencies": {}
 }
